@@ -1,5 +1,5 @@
-/*
 
+/*
 var a = 10
 var b = 20
 var c = a + b
@@ -63,35 +63,35 @@ function favourite() {
 favourite()
 
 
- 
+
 function area(a, b) {
     console.log("Area of Rectangle : " + (a * b))
-}   
-area(5,10)
+}
+area(5, 10)
 
 
 
 function areaOfCircle(a) {
-    var r = a + 2 
+    var r = a + 2
     console.log("Area of Circle : " + (3.14 * r * r))
-}   
+}
 var a = 5
 areaOfCircle(a)
 
 
 function myname() {
     return "My name is John"
-}       
-var a=myname()
+}
+var a = myname()
 console.log(a)
 
 
 
 function add(a, b) {
 
-    return (a+b)
+    return (a + b)
 }
-var sum = add(10,20)
+var sum = add(10, 20)
 console.log(sum)
 
 
@@ -124,7 +124,7 @@ if (colour == "green") {
 else {
     console.log("waiting for the colour change")
 }
-    
+
 
 var sesion = "spring"
 if (sesion == "spring") {
@@ -154,5 +154,10 @@ else if (score >= 51 && score <= 70) {
 else if (score >= 71) {
     console.log("Excellent Performance")
 }
-    */
+
+
+*/
+for (var i = 1; i < 11; i++) {
+    console.log("apple : " + i)
+}
 
