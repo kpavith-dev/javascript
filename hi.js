@@ -156,8 +156,18 @@ else if (score >= 71) {
 }
 
 
-*/
+
 for (var i = 1; i < 11; i++) {
     console.log("apple : " + i)
 }
+*/
+
+
+
+for (var i = 10; i >= 1; i--) {
+    console.log("apple : " + i * 2)
+}
+
+
+// javaScript DOM(document object model ) Manipulation
 
