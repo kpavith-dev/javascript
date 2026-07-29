@@ -162,3 +162,107 @@
 
 ----->
 
+<!--- add a new div with the text "HELLO WORLD" inside the <div id="result"> when the button is clicked.
+
+<button onclick="update()">add</button>
+
+<div id="result"></div>
+
+<script>
+    
+    var  div = document.getElementById("result")
+
+
+   function update(){
+
+        var listitem = document.createElement("div")
+        listitem.textContent ="HELLO WORLD"
+        div.append(listitem)
+    }
+
+
+    </script>
+
+        ---->
+
+
+<!--- change the background color of the button to red when it is clicked.
+
+        <button id="btn" onclick="update()">changecolour</button>
+        
+
+        <script>
+
+            var  btn = document.getElementById("btn")        
+
+
+        function update(){  
+
+        btn.style.backgroundColor = "red"
+
+        }
+
+            </script>
+
+---->
+
+<!--- change the text of the <h1> tag to the text of the button that is clicked.
+
+<h1 id="h1">Name</h1>
+    
+<button onclick="change(event)">John</button> 
+<button onclick="change(event)">Praveen</button>
+<button onclick="change(event)">Jack</button> 
+
+
+<script>
+
+    var h1 = document.getElementById("h1")
+
+
+    function change(event){
+
+        h1.textContent = event.target.textContent
+
+
+
+       
+    }
+
+</script>
+
+---->
+
+<!--- delete the <h1> tag that is clicked.
+
+<h1  id="one" onclick="deleteText(event)">One</h1>
+<h1 id="two" onclick="deleteText(event)">Two</h1>    
+<h1 id="three" onclick="deleteText(event)">Three</h1>
+<h1 id="four" onclick="deleteText(event)">Four</h1>
+<h1 id="five" onclick="deleteText(event)">Five</h1>
+<h1 id="six" onclick="deleteText(event)">Six</h1>
+
+
+<script>
+
+    var h1 = document.getElementById("one")
+    var h2 = document.getElementById("two")
+    var h3 = document.getElementById("three")
+    var h4 = document.getElementById("four")
+    var h5 = document.getElementById("five")
+    var h6 = document.getElementById("six")
+
+
+    function deleteText(event){
+       event.target.remove()
+
+    }
+
+    </script>
+
+---->
+
+
+
+
+
