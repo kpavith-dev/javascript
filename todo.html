@@ -21,4 +21,79 @@
 </script>
 
 ---->
+<!--            
+<h1 id="title">Welcome</h1>
+
+<script>
+
+var heading = document.getElementById("title");
+
+console.log(heading.textContent);
+
+</script>
+
+
+<p class="fruit">Apple</p>
+<p class="fruit">Orange</p>
+<p class="fruit">Mango</p>
+
+
+<script> 
+
+
+
+var fruits = document.getElementsByClassName("fruit");
+
+console.log(fruits[0].textContent);
+console.log(fruits[1].textContent);
+console.log(fruits[2].textContent);
+
+</script>
+
+----->
+
+
+
+
+
+
+<!--todo list   
+
+<input id="input">
+
+<button onclick="add()">add</button>
+
+<ul id="listcontainer">
+
+    <li>Hello
+        <button onclick="deleteItem(event)">delete</button>
+    </li>
+</ul>
+
+
+<script>
+
+    var ul = document.getElementById("listcontainer");
+    var input = document.getElementById("input");   
+
+    function add(){
+
+        var listItem = document.createElement("li");
+        
+        listItem.innerHTML = input.value + " <button onclick='deleteItem(event)'>delete</button>";
+        ul.appendChild(listItem);
+
+    }
+
+    function deleteItem(event){
+
+        event.target.parentNode.remove();
+    }  
+</script>
+
+
+--->
+
+
+
 
